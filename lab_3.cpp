@@ -4,10 +4,10 @@ using namespace std;
 
 int main(){
     float a =1;
-    float b =2;
+    float b =6;
     float c;
     float d =0;
-    while(b<70){
+    while(b<20){
         c = a/b;
         b = b+1;
         d = d+c;
