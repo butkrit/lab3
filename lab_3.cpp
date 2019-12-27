@@ -1,14 +1,17 @@
 #include <iostream>
-#include <string>
+
 using namespace std;
 
-int main()
-{
-    string name;
-    cout <<"Who are You?\n";
-    cout << ">>";
-    cin >> name;
-    
-    cout << "Nice to meet you.";
-return 0 ;
+int main(){
+    float a =1;
+    float b =2;
+    float c;
+    float d =0;
+    while(b<70){
+        c = a/b;
+        b = b+1;
+        d = d+c;
+    }
+    cout<< d;
+     return 0;    
 }
